@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: RandomSorter
+Bundle-SymbolicName: RandomSorter;singleton:=true
+Bundle-Version: 0.9.9.alpha
+Bundle-Activator: jp.cles.randomsorter.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.jdt.ui,
+ org.eclipse.jface.text;bundle-version="3.10.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: cles.jp
